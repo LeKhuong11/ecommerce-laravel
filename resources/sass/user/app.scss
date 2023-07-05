@@ -2,7 +2,34 @@
 @import '~@fortawesome/fontawesome-free/css/all.css';
 
 @import './header';
+@import './home';
+
 
 p {
     margin: 0 !important;
+}
+
+.button {
+    background-color: #FB2E86;
+    color: #fff;
+    border-radius: 3px;
+    list-style: none;
+    border: none;
+    cursor: pointer;
+    margin: 15px 0;
+    padding: 12px 16px;
+    & a {
+        text-decoration: none;
+        color: #fff;
+    }
+    &:hover{
+        background-color: #fa0a72;
+
+    }
+}
+
+h1 {
+    font-size: 40; 
+    color: #1a0b5b;
+    margin: 5px 0 10px 0;
 }

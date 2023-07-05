@@ -1,0 +1,45 @@
+
+.slider {
+
+    .home-banner {
+        display: flex;
+        align-items: center;
+        background-color: #f2f0ff;
+        padding: 35px 0;
+        .home-left {
+            display: flex;
+            align-items: center;
+
+            p {
+                font-weight: 550; 
+                color: '#FB2E86'; 
+                margin: 0;
+            }
+        }
+
+        .title {
+            display: flex;
+            margin: 15px 0;
+
+            img {
+                margin-right: 15px;
+            }
+
+            p {
+                color: #949494;
+                font-size: 14px;
+                margin: 0;
+            }
+        }
+    }
+    .home-backgroundImg {
+        align-items: center;
+        background-image: url("/assets/images/bg-img-slide3.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        height: 415.547px;
+        text-align: center;
+        width: 100%;
+    }
+}
